@@ -25,7 +25,7 @@ class MyCLI(click.MultiCommand):
 
 
 cli = MyCLI(
-    help="This tool's subcommands are loaded from a plugin folder dynamically."
+    help="Each command of this tool represents a social network and each command has its own arguments."
 )
 
 if __name__ == "__main__":
