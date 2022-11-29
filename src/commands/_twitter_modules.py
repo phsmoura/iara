@@ -55,7 +55,7 @@ def get_session():
 
     return oauth
 
-def check_tweet_url(post,interactions) -> bool:
+def check_tweet_url(post) -> bool:
     print("Checking image in tweet url...")
     return True
 
