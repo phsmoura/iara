@@ -16,7 +16,7 @@ DEFAULT_NUMBER = 10
     "-it", "--interactions", required=False, default=DEFAULT_NUMBER, help="Number of accounts that liked or retweeted (without quoting) the post and will be checked.\nDefault is 10"
 )
 @click.option(
-    "-o", "--out", required=False, default='iara_report', help="Output the report in a file"
+    "-o", "--out", required=False, help="Output the report in a file"
 )
 def cli(username,tweet,number_tweets,interactions,out):
     """Check Twitter account or single post"""
